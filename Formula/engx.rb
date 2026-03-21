@@ -4,18 +4,18 @@
 class Engx < Formula
   desc "Local-first developer control plane — run, monitor, and govern your services"
   homepage "https://github.com/Harshmaury/Nexus"
-  version "1.7.2"
+  version "1.7.3"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/Harshmaury/Nexus/releases/download/v1.7.2/engx-1.7.2-darwin-amd64.tar.gz"
-      sha256 "35714ddb9d4099f1946b572118ca26edb5d05d2c9cf0a02d74fc4e3b99631925"
+      url "https://github.com/Harshmaury/Nexus/releases/download/v1.7.3/engx-1.7.3-darwin-amd64.tar.gz"
+      sha256 "3cd653a49b92679bd4f9fecca1372cbf8798cb11d5e43eeb9db52640b2eb49e5"
     end
 
     on_arm do
-      url "https://github.com/Harshmaury/Nexus/releases/download/v1.7.2/engx-1.7.2-darwin-arm64.tar.gz"
-      sha256 "e8a6f4595df120ec20257f462a438aa7e74fc264b4f85acfb3f470137b0f5054"
+      url "https://github.com/Harshmaury/Nexus/releases/download/v1.7.3/engx-1.7.3-darwin-arm64.tar.gz"
+      sha256 "b93341601bc8b0257b2b5015b3c6d25d1f59651ed0fc8b62d08caa71ea6e2fa3"
     end
   end
 
