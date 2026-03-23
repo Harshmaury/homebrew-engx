@@ -9,23 +9,23 @@ class Engx < Formula
   on_macos do
     on_intel do
       url "https://github.com/Harshmaury/Nexus/releases/download/v1.0.0-beta/engx-1.0.0-beta-darwin-amd64.tar.gz"
-      sha256 :no_check  # updated by update-formula.sh after release
+      sha256 "0000000000000000000000000000000000000000000000000000000000000000" # run update-formula.sh v1.0.0-beta to set
     end
     on_arm do
       # darwin/arm64 runs via Rosetta 2 using the amd64 binary
       url "https://github.com/Harshmaury/Nexus/releases/download/v1.0.0-beta/engx-1.0.0-beta-darwin-amd64.tar.gz"
-      sha256 :no_check
+      sha256 "0000000000000000000000000000000000000000000000000000000000000000" # placeholder — run: ./update-formula.sh v<version>
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Harshmaury/Nexus/releases/download/v1.0.0-beta/engx-1.0.0-beta-linux-amd64.tar.gz"
-      sha256 :no_check
+      sha256 "0000000000000000000000000000000000000000000000000000000000000000" # placeholder — run: ./update-formula.sh v<version>
     end
     on_arm do
       url "https://github.com/Harshmaury/Nexus/releases/download/v1.0.0-beta/engx-1.0.0-beta-linux-amd64.tar.gz"
-      sha256 :no_check
+      sha256 "0000000000000000000000000000000000000000000000000000000000000000" # placeholder — run: ./update-formula.sh v<version>
     end
   end
 
